@@ -1,3 +1,0 @@
-nasm -f win64 test64.asm
-
-lld-link hello.obj /subsystem:windows /entry:WinMain  /nodefaultlib kernel32.lib user32.lib /largeaddressaware:no
